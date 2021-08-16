@@ -1,0 +1,144 @@
+/* MEDIA QUERY*/
+  /*Dispositivo XS*/
+  /* MOTO G4 (360 x 640)*/
+  @media (min-width: 351px) and (max-width: 516px) {
+    .imagenFondo {
+      width: 100%;
+      height: max-content; 
+    }
+    .buttonPandemia {
+      width: 80px;
+      height: 50px;
+      margin-left: 150px; 
+    }
+    .logoCross {
+      margin-left: 100px; 
+    }
+    .boton {
+      display: none; 
+    }
+    .menuPrincipal {
+      margin: 15px;
+      padding: 15px;
+      text-align: center; 
+    }
+    .menu a {
+      display: inline;
+      font-size: 0.4rem; 
+    }
+    .filosofia {
+      margin: 15px;
+      padding: 15px; 
+    }
+    .flex-container {
+      display: inline-block;
+      margin-top: 20px; 
+    }
+    .mision {
+      width: 90%;
+      height: 150px; 
+    }
+    .vision {
+      width: 90%;
+      height: 150px; 
+    }
+    .valores {
+      width: 90%;
+      height: 150px;
+      margin-top: 0; 
+    }
+    .galeria1 {
+      padding-left: 20%; 
+    }
+    .galeria2 {
+      padding-left: 20%; 
+    }
+    .publicidad {
+      display: none; 
+    }
+    .nav {
+      display: inline; 
+    }
+    .parrafoFooter {
+      display: none; 
+    }
+    .grilla {
+      display: grid;
+      grid-template-areas: "principal principal principal"
+   "galeria galeria galeria"
+   "formulario formulario formulario"
+   "pieDePagina pieDePagina pieDePagina";
+      grid-template-rows: auto auto auto auto;
+      grid-template-columns: 50vw 35vw 15vw; } 
+    }
+  
+  /*Dispositivo LARGE*/
+  @media (min-width: 517px) and (max-width: 980px) {
+    .imagenFondo {
+      width: 100%;
+      height: max-content; 
+    }
+    .menuPrincipal li {
+      font-size: 0.8rem;
+      display: inline;
+      align-items: center; 
+    }
+    .buttonPandemia {
+      width: 90px;
+      height: 30px;
+      margin-left: 200px; 
+    }
+    .menu a {
+      display: inline;
+      font-size: 0.7rem; 
+    }
+    .boton {
+      position: fixed; 
+    }
+    .logoCross {
+      margin-left: 180px; 
+    }
+    .flex-container {
+      display: inline-block;
+      margin-top: 20px; 
+    }
+    .mision {
+      width: 90%;
+      height: 10px;
+      text-align: center; 
+    }
+    .vision {
+      width: 90%;
+      height: 60px;
+      text-align: center; 
+    }
+    .valores {
+      width: 90%;
+      height: 60px;
+      margin-top: 0;
+      text-align: center; 
+    }
+    .galeria1 {
+      padding-left: 30%; 
+    }
+    .galeria2 {
+      padding-left: 30%; 
+    }
+    .publicidad {
+      display: none; 
+    }
+    .nav {
+      display: inline; 
+    }
+    .parrafoFooter {
+      display: none; 
+    }
+    .grilla {
+      display: grid;
+      grid-template-areas: "principal principal principal"
+   "galeria galeria galeria"
+   "formulario formulario formulario"
+   "pieDePagina pieDePagina pieDePagina";
+      grid-template-rows: auto auto auto auto;
+      grid-template-columns: 50vw 35vw 15vw; } 
+}

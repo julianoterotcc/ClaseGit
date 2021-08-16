@@ -1,0 +1,72 @@
+@import "variables";
+.dosPorUno {
+    background-image: url(imagenes/2x1.jpg);
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    text-align: center;
+    margin: 25px auto;
+    padding-top: 40px;
+    width: 400px;
+    height: 200px;
+    color: transparent; 
+}
+  
+  .dosPorUno:hover {
+    color: #EBEAEA;
+    background-image: none; 
+}
+  
+  .grupoFamiliar {
+    background-image: url(imagenes/Familia.jpg);
+    background-size: cover;
+    text-align: center;
+    margin: 25px auto;
+    padding-top: 40px;
+    width: 400px;
+    height: 200px;
+    color: transparent;
+    font-family: 'Poppins', sans-serif; 
+}
+  
+  .grupoFamiliar:hover {
+    color: $color-text-hover-1;
+    background-image: none; 
+}
+  
+  .vertical {
+    background-image: url(imagenes/Vertical.jpg);
+    background-size: cover;
+    margin: 25px auto;
+    padding-top: 25px;
+    width: 400px;
+    height: 200px;
+    text-transform: inherit;
+    color: transparent;
+    font-family: 'Poppins', sans-serif;
+    text-align: center; 
+}
+  
+  .vertical:hover {
+    color: $color-text-hover-1;
+    background-image: none; 
+}
+  
+  .tabla {
+    background: linear-gradient(to top, $color-text-hover-1, $color-table);
+    width: 60%;
+    text-align: center;
+    margin: 0 auto; 
+}
+  
+  .dias {
+    background-color: $color-table;
+    color: #ebeaea;
+    font-family: 'Poppins', sans-serif; 
+}
+  
+  .horas {
+    background-color: $color-table;
+    color: #a8a8a8;
+    font-family: 'Poppins', sans-serif; 
+}
+  

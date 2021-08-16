@@ -1,0 +1,141 @@
+body {
+    background-color: #191818;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.logoCross {
+    margin-top: 5px; 
+}
+  .menu__Principal {
+    margin-right: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 100%;
+    justify-content: start; 
+}
+  
+  .menu__Principal li {
+    display: inline;
+    float: top right;
+    margin: 15px; 
+}
+  
+  .menu__Principal a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ebeaea; 
+}
+  
+  .menu__Principal a:hover {
+    color: #fb6c3c;
+    text-decoration: underline; 
+}
+  
+  ul {
+    list-style: none;
+    font-size: 0;
+    /* truco por el uso de inline-block*/ 
+}
+  
+  li {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    font-size: 1.5rem; 
+}
+  
+  ul ul {
+    position: fixed;
+    top: 30px;
+    left: 55%;
+    display: none; 
+}
+  ul ul li {
+    display: block; 
+}
+  
+  ul li:hover ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+    font-size: 0.5rem;
+    color: #fb6c3c; 
+}
+  .menu {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    top: 10px;
+    left: 40px;
+    color: #EBEAEA;
+    width: 100vw; 
+}
+  .menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline;
+    font-size: 1rem;
+    color: #EBEAEA; 
+}
+  
+  .menu a:hover {
+    text-decoration: underline;
+    color: #ebeaea; 
+}
+  
+  .menu li {
+    display: inline;
+    text-align: right;
+    padding: 2px 7px 2px 7px;
+    margin: 0 10px 0 0; 
+}
+  
+  .menuOtros {
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 10px; 
+}
+  
+  .menuOtros a {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #EBEAEA; 
+}
+  
+  .menuOtros a:hover {
+    color: #fb6c3c; 
+}
+  
+  .menuOtros li {
+    display: inline;
+    float: top right;
+    margin: 15px; 
+}
+footer {
+  text-align: center;
+}
+  footer a{
+    background-color: #191818;
+    font-family: 'Poppins', sans-serif;
+    color: #EBEAEA; 
+    text-decoration: none;
+}
+footer a:hover{
+  background-color: #191818;
+  font-family: 'Poppins', sans-serif;
+  color: #fb6c3c; 
+}
+  .parrafoFooter {
+    color: #EBEAEA;
+    font-family: 'Poppins', sans-serif; 
+}

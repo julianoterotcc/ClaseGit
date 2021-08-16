@@ -1,0 +1,64 @@
+.grilla {
+    display: grid;
+    grid-template-areas: "principal principal principal"
+   "galeria galeria publicidad"
+   "formulario formulario formulario"
+   "pieDePagina pieDePagina pieDePagina";
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 50vw 35vw 15vw; 
+}
+  
+  .filosofia {
+    grid-area: principal; 
+}
+  
+  .galeria {
+    grid-area: galeria; 
+}
+  
+  .publicidad {
+    grid-area: publicidad;
+    height: 650px;
+    font-family: 'Poppins', sans-serif;
+    width: 80%; 
+}
+  
+  .formulario {
+    grid-area: formulario; 
+}
+  
+  .menu {
+    grid-area: pieDepagina; 
+}
+  
+  .buttonPandemia {
+    width: 600px;
+    Height: 80px;
+    margin-left: 350px;
+    margin-top: 60px;
+    border-radius: 3px;
+    background-color: #fb6c3c;
+    font-family: 'Poppins', sans-serif;
+    color: #EBEAEA;
+    border-color: #EBEAEA; 
+}
+  
+  .buttonPandemia:hover {
+    background-color: #EBEAEA;
+    color: #fb6c3c; 
+}
+  
+  .w-100 {
+    width: 50% !important; 
+}
+  
+  .carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin: 0 24% 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out; 
+}

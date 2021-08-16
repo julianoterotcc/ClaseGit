@@ -1,0 +1,65 @@
+.coaches {
+    background-color: #fb6c3c;
+    font-family: 'Poppins', sans-serif;
+    color: #ebeaea;
+    width: 30%;
+    height: 100px;
+    float: right;
+    text-align: center;
+    margin: 15px;
+    margin-right: 400px;
+    margin-top: 50px;
+    transform: rotate(-5deg); 
+}
+  
+  .coaches2 {
+    background-color: #fb6c3c;
+    font-family: 'Poppins', sans-serif;
+    color: #ebeaea;
+    width: 30%;
+    float: left;
+    height: 100px;
+    text-align: center;
+    margin: 15px;
+    margin-left: 300px;
+    margin-top: 50px;
+    transform: rotate(-5deg); 
+}
+  
+  .coaches:hover {
+    transform: rotate(5deg); 
+}
+  
+  .coach {
+    margin-left: 100px;
+    transform: rotate(6deg); 
+}
+  
+  .coach2 {
+    margin-left: 100px;
+    transform: rotate(6deg); 
+}
+  
+  .coach2:hover {
+    transform: scalez(2.1); 
+}
+  
+  .coach:hover {
+    transform: scaleZ(2.1); 
+}
+  
+  .nombreCoach {
+    color: #fb6c3c;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 600px;
+    transform: rotate(-5deg); 
+}
+  
+  .nombreCoach2 {
+    color: #fb6c3c;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 350px;
+    transform: rotate(-5deg); 
+}

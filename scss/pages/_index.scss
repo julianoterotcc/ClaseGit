@@ -1,0 +1,188 @@
+.imagenFondo {
+    background-image: url(Imagenes/Cross.jpg);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 1000px; 
+}
+  
+  .boton {
+    background-color: #191818;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    width: 170px;
+    color: #EBEAEA;
+    height: 50px;
+    justify-content: center;
+    position: relative;
+    top: 600px;
+    left: 700px;
+    border-radius: 1px;
+    border-color: #EBEAEA; 
+}
+  
+  .boton:hover {
+    background-color: #ebeaea;
+    color: #fb6c3c;
+    border-color: #fb6c3c; 
+}
+.filosofia {
+    background-color: #191818;
+    padding-top: 50px; 
+}
+  
+  .desafio1 {
+    background-color: #191818;
+    color: #ebeaea;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 300%; 
+}
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+  
+  .mision {
+    background-color: #191818;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fb6c3c;
+    width: 30%;
+    height: 350px;
+    text-align: left;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    text-transform: uppercase; 
+}
+  
+  .vision {
+    background-color: #191818;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #fb6c3c;
+    width: 30%;
+    height: 350px;
+    text-align: left;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-right: 25px;
+    margin-bottom: 50px; 
+}
+  
+  .valores {
+    background-color: #191818;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #fb6c3c;
+    width: 30%;
+    height: 350px;
+    text-align: left;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-right: 25px;
+    margin-bottom: 50px; 
+}
+  
+  .instalaciones {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #EBEAEA;
+    font-size: 1.6rem;
+    margin-bottom: 50px;
+    text-transform: uppercase; 
+}
+  
+  .flexGaleria {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center; 
+}
+  
+  .imagenesGaleria {
+    margin: 10px 10px;
+    border-radius: 8px;
+    background-color: black; 
+}
+  
+  .contactenos {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #EBEAEA;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin-bottom: 50px; 
+}
+  
+  .enviar {
+    background-color: #191818;
+    color: #ebeaea;
+    font-family: 'Poppins', sans-serif;
+    width: 90px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border-color: #ebeaea; 
+}
+  
+  .enviar:hover {
+    color: #fb6c3c;
+    background-color: #EBEAEA; 
+}
+  
+  .formuFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #EBEAEA; 
+}
+  
+  .Escribinos {
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    margin-top: 50px; 
+}
+  
+  .nombre {
+    margin-top: 45px;
+    text-transform: lowercase;
+    margin: 15px; 
+}
+  
+  .apellido {
+    margin: 15px; 
+}
+  
+  .correo {
+    margin: 15px;
+    text-align: left; 
+}
+  
+  .Escribinos {
+    margin: 15px; 
+}
+  
+  .publicidad {
+    float: right;
+    color: #ebeaea; 
+}
+  
+  .publicidad:hover {
+    transform: rotate(4deg); 
+}
+  

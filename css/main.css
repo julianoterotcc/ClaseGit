@@ -1,0 +1,663 @@
+.dosPorUno {
+  background-image: url(/Users/JULIAN/OneDrive/Documentos/Desarrollo/Imagenes/2x1.jpg);
+  font-family: 'Poppins', sans-serif;
+  background-size: cover;
+  text-align: center;
+  margin: 25px auto;
+  padding-top: 40px;
+  width: 400px;
+  height: 200px;
+  color: transparent; }
+
+.dosPorUno:hover {
+  color: #EBEAEA;
+  background-image: none; }
+
+.grupoFamiliar {
+  background-image: url(/Users/JULIAN/OneDrive/Documentos/Desarrollo/Imagenes/Familia.jpg);
+  background-size: cover;
+  text-align: center;
+  margin: 25px auto;
+  padding-top: 40px;
+  width: 400px;
+  height: 200px;
+  color: transparent;
+  font-family: 'Poppins', sans-serif; }
+
+.grupoFamiliar:hover {
+  color: #a8a8a8;
+  background-image: none; }
+
+.vertical {
+  background-image: url(/Users/JULIAN/OneDrive/Documentos/Desarrollo/Imagenes/Vertical.jpg);
+  background-size: cover;
+  margin: 25px auto;
+  padding-top: 25px;
+  width: 400px;
+  height: 200px;
+  text-transform: inherit;
+  color: transparent;
+  font-family: 'Poppins', sans-serif;
+  text-align: center; }
+
+.vertical:hover {
+  color: #a8a8a8;
+  background-image: none; }
+
+.tabla {
+  background: linear-gradient(to top, #a8a8a8, #fb6c3c);
+  width: 60%;
+  text-align: center;
+  margin: 0 auto; }
+
+.dias {
+  background-color: #fb6c3c;
+  color: #ebeaea;
+  font-family: 'Poppins', sans-serif; }
+
+.horas {
+  background-color: #fb6c3c;
+  color: #a8a8a8;
+  font-family: 'Poppins', sans-serif; }
+
+/* MEDIA QUERY*/
+/*Dispositivo XS*/
+/* MOTO G4 (360 x 640)*/
+@media (min-width: 351px) and (max-width: 516px) {
+  .imagenFondo {
+    width: 100%;
+    height: max-content; }
+  .buttonPandemia {
+    width: 80px;
+    height: 50px;
+    margin-left: 150px; }
+  .logoCross {
+    margin-left: 100px; }
+  .boton {
+    display: none; }
+  .menuPrincipal {
+    margin: 15px;
+    padding: 15px;
+    text-align: center; }
+  .menu a {
+    display: inline;
+    font-size: 0.4rem; }
+  .filosofia {
+    margin: 15px;
+    padding: 15px; }
+  .flex-container {
+    display: inline-block;
+    margin-top: 20px; }
+  .mision {
+    width: 90%;
+    height: 150px; }
+  .vision {
+    width: 90%;
+    height: 150px; }
+  .valores {
+    width: 90%;
+    height: 150px;
+    margin-top: 0; }
+  .galeria1 {
+    padding-left: 20%; }
+  .galeria2 {
+    padding-left: 20%; }
+  .publicidad {
+    display: none; }
+  .nav {
+    display: inline; }
+  .parrafoFooter {
+    display: none; }
+  .grilla {
+    display: grid;
+    grid-template-areas: "principal principal principal"
+ "galeria galeria galeria"
+ "formulario formulario formulario"
+ "pieDePagina pieDePagina pieDePagina";
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 50vw 35vw 15vw; } }
+
+/*Dispositivo LARGE*/
+@media (min-width: 517px) and (max-width: 980px) {
+  .imagenFondo {
+    width: 100%;
+    height: max-content; }
+  .menuPrincipal li {
+    font-size: 0.8rem;
+    display: inline;
+    align-items: center; }
+  .buttonPandemia {
+    width: 90px;
+    height: 30px;
+    margin-left: 200px; }
+  .menu a {
+    display: inline;
+    font-size: 0.7rem; }
+  .boton {
+    position: fixed; }
+  .logoCross {
+    margin-left: 180px; }
+  .flex-container {
+    display: inline-block;
+    margin-top: 20px; }
+  .mision {
+    width: 90%;
+    height: 10px;
+    text-align: center; }
+  .vision {
+    width: 90%;
+    height: 60px;
+    text-align: center; }
+  .valores {
+    width: 90%;
+    height: 60px;
+    margin-top: 0;
+    text-align: center; }
+  .galeria1 {
+    padding-left: 30%; }
+  .galeria2 {
+    padding-left: 30%; }
+  .publicidad {
+    display: none; }
+  .nav {
+    display: inline; }
+  .parrafoFooter {
+    display: none; }
+  .grilla {
+    display: grid;
+    grid-template-areas: "principal principal principal"
+ "galeria galeria galeria"
+ "formulario formulario formulario"
+ "pieDePagina pieDePagina pieDePagina";
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 50vw 35vw 15vw; } }
+
+.boxCursos {
+  background-color: #fb6c3c;
+  width: 370px;
+  height: 370px;
+  margin-left: 200px;
+  border-radius: 8px; }
+
+.division {
+  float: left; }
+
+.cursos {
+  color: #EBEAEA;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 100px; }
+
+.imagenCurso {
+  align-content: center;
+  padding: 50px;
+  margin-bottom: 30px;
+  margin-top: -35px; }
+
+.textoCursos {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  color: #EBEAEA;
+  margin-top: -75px;
+  text-align: center; }
+
+.menuCapacitaciones {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  top: 10px;
+  left: 40px;
+  color: #EBEAEA;
+  width: 100vw; }
+
+.menuCapacitaciones a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline;
+  font-size: 1rem;
+  color: #EBEAEA; }
+
+.menuCapacitaciones a:hover {
+  text-decoration: underline;
+  color: #ebeaea; }
+
+.formularioContacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #EBEAEA;
+  padding-top: 45px;
+  margin-top: 45px; }
+
+.contactoTexto {
+  display: inline-flex;
+  font-family: 'Poppins', sans-serif;
+  color: #fb6c3c;
+  font-size: 1.2rem;
+  float: left;
+  height: 500px;
+  width: 50%;
+  margin-top: 50px;
+  text-transform: uppercase; }
+
+.contactoParrafo {
+  margin-left: 45px;
+  margin-top: 45px;
+  align-items: center; }
+
+.mapaContacto {
+  display: flex;
+  float: right;
+  width: 50%;
+  height: 500px;
+  margin-top: 50px; }
+
+.imagenFondo {
+  background-image: url(/Users/JULIAN/OneDrive/Documentos/Desarrollo/Imagenes/Cross.jpg);
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  height: 1000px; }
+
+.boton {
+  background-color: #191818;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  width: 170px;
+  color: #EBEAEA;
+  height: 50px;
+  justify-content: center;
+  position: relative;
+  top: 600px;
+  left: 700px;
+  border-radius: 1px;
+  border-color: #EBEAEA; }
+
+.boton:hover {
+  background-color: #ebeaea;
+  color: #fb6c3c;
+  border-color: #fb6c3c; }
+
+.filosofia {
+  background-color: #191818;
+  padding-top: 50px; }
+
+.desafio1 {
+  background-color: #191818;
+  color: #ebeaea;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+  font-size: 300%; }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.mision {
+  background-color: #191818;
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  color: #fb6c3c;
+  width: 30%;
+  height: 350px;
+  text-align: left;
+  border-radius: 15px;
+  margin-top: 100px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  text-transform: uppercase; }
+
+.vision {
+  background-color: #191818;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #fb6c3c;
+  width: 30%;
+  height: 350px;
+  text-align: left;
+  border-radius: 15px;
+  margin-top: 100px;
+  margin-right: 25px;
+  margin-bottom: 50px; }
+
+.valores {
+  background-color: #191818;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #fb6c3c;
+  width: 30%;
+  height: 350px;
+  text-align: left;
+  border-radius: 15px;
+  margin-top: 100px;
+  margin-right: 25px;
+  margin-bottom: 50px; }
+
+.instalaciones {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #EBEAEA;
+  font-size: 1.6rem;
+  margin-bottom: 50px;
+  text-transform: uppercase; }
+
+.flexGaleria {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center; }
+
+.imagenesGaleria {
+  margin: 10px 10px;
+  border-radius: 8px;
+  background-color: black; }
+
+.contactenos {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #EBEAEA;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 50px; }
+
+.enviar {
+  background-color: #191818;
+  color: #ebeaea;
+  font-family: 'Poppins', sans-serif;
+  width: 90px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 110px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border-color: #ebeaea; }
+
+.enviar:hover {
+  color: #fb6c3c;
+  background-color: #EBEAEA; }
+
+.formuFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #EBEAEA; }
+
+.Escribinos {
+  font-family: 'Poppins', sans-serif;
+  height: 50px;
+  margin-top: 50px; }
+
+.nombre {
+  margin-top: 45px;
+  text-transform: lowercase;
+  margin: 15px; }
+
+.apellido {
+  margin: 15px; }
+
+.correo {
+  margin: 15px;
+  text-align: left; }
+
+.Escribinos {
+  margin: 15px; }
+
+.publicidad {
+  float: right;
+  color: #ebeaea; }
+
+.publicidad:hover {
+  transform: rotate(4deg); }
+
+.grilla {
+  display: grid;
+  grid-template-areas: "principal principal principal"
+ "galeria galeria publicidad"
+ "formulario formulario formulario"
+ "pieDePagina pieDePagina pieDePagina";
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 50vw 35vw 15vw; }
+
+.filosofia {
+  grid-area: principal; }
+
+.galeria {
+  grid-area: galeria; }
+
+.publicidad {
+  grid-area: publicidad;
+  height: 650px;
+  font-family: 'Poppins', sans-serif;
+  width: 80%; }
+
+.formulario {
+  grid-area: formulario; }
+
+.menu {
+  grid-area: pieDepagina; }
+
+.buttonPandemia {
+  width: 600px;
+  Height: 80px;
+  margin-left: 350px;
+  margin-top: 60px;
+  border-radius: 3px;
+  background-color: #fb6c3c;
+  font-family: 'Poppins', sans-serif;
+  color: #EBEAEA;
+  border-color: #EBEAEA; }
+
+.buttonPandemia:hover {
+  background-color: #EBEAEA;
+  color: #fb6c3c; }
+
+.w-100 {
+  width: 50% !important; }
+
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin: 0 24% 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform .6s ease-in-out; }
+
+.coaches {
+  background-color: #fb6c3c;
+  font-family: 'Poppins', sans-serif;
+  color: #ebeaea;
+  width: 30%;
+  height: 100px;
+  float: right;
+  text-align: center;
+  margin: 15px;
+  margin-right: 400px;
+  margin-top: 50px;
+  transform: rotate(-5deg); }
+
+.coaches2 {
+  background-color: #fb6c3c;
+  font-family: 'Poppins', sans-serif;
+  color: #ebeaea;
+  width: 30%;
+  float: left;
+  height: 100px;
+  text-align: center;
+  margin: 15px;
+  margin-left: 300px;
+  margin-top: 50px;
+  transform: rotate(-5deg); }
+
+.coaches:hover {
+  transform: rotate(5deg); }
+
+.coach {
+  margin-left: 100px;
+  transform: rotate(6deg); }
+
+.coach2 {
+  margin-left: 100px;
+  transform: rotate(6deg); }
+
+.coach2:hover {
+  transform: scalez(2.1); }
+
+.coach:hover {
+  transform: scaleZ(2.1); }
+
+.nombreCoach {
+  color: #fb6c3c;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  margin-left: 600px;
+  transform: rotate(-5deg); }
+
+.nombreCoach2 {
+  color: #fb6c3c;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  margin-left: 350px;
+  transform: rotate(-5deg); }
+
+body {
+  background-color: #191818;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.logoCross {
+  margin-top: 5px; }
+
+.menu__Principal {
+  margin-right: 15px;
+  font-family: 'Poppins', sans-serif;
+  text-align: right;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 100%;
+  justify-content: start; }
+
+.menu__Principal li {
+  display: inline;
+  float: top right;
+  margin: 15px; }
+
+.menu__Principal a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ebeaea; }
+
+.menu__Principal a:hover {
+  color: #fb6c3c;
+  text-decoration: underline; }
+
+ul {
+  list-style: none;
+  font-size: 0;
+  /* truco por el uso de inline-block*/ }
+
+li {
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  font-size: 1.5rem; }
+
+ul ul {
+  position: fixed;
+  top: 30px;
+  left: 55%;
+  display: none; }
+
+ul ul li {
+  display: block; }
+
+ul li:hover ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100vw;
+  font-size: 0.5rem;
+  color: #fb6c3c; }
+
+.menu {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  width: 80%;
+  top: 10px;
+  left: 40px;
+  color: #EBEAEA;
+  width: 100vw; }
+
+.menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline;
+  font-size: 1rem;
+  color: #EBEAEA; }
+
+.menu a:hover {
+  text-decoration: underline;
+  color: #ebeaea; }
+
+.menu li {
+  display: inline;
+  text-align: right;
+  padding: 2px 7px 2px 7px;
+  margin: 0 10px 0 0; }
+
+.menuOtros {
+  text-align: right;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 10px; }
+
+.menuOtros a {
+  display: inline;
+  list-style-type: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #EBEAEA; }
+
+.menuOtros a:hover {
+  color: #fb6c3c; }
+
+.menuOtros li {
+  display: inline;
+  float: top right;
+  margin: 15px; }
+
+footer {
+  text-align: center; }
+
+footer a {
+  background-color: #191818;
+  font-family: 'Poppins', sans-serif;
+  color: #EBEAEA;
+  text-decoration: none; }
+
+footer a:hover {
+  background-color: #191818;
+  font-family: 'Poppins', sans-serif;
+  color: #fb6c3c; }
+
+.parrafoFooter {
+  color: #EBEAEA;
+  font-family: 'Poppins', sans-serif; }

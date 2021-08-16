@@ -1,0 +1,60 @@
+@mixin card {
+  background-color: #fb6c3c;
+    width: 370px;
+    height: 370px;
+    margin-left: 200px;
+    border-radius: 8px;
+}
+.boxCursos {
+  @include card;
+}
+  
+  .division {
+    float: left; 
+}
+  
+  .cursos {
+    color: #EBEAEA;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 100px; 
+}
+  
+  .imagenCurso {
+    align-content: center;
+    padding: 50px;
+    margin-bottom: 30px;
+    margin-top: -35px; 
+}
+  
+  .textoCursos {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #EBEAEA;
+    margin-top: -75px;
+    text-align: center; 
+}
+  
+  .menuCapacitaciones {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    top: 10px;
+    left: 40px;
+    color: #EBEAEA;
+    width: 100vw; 
+}
+  
+  .menuCapacitaciones a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline;
+    font-size: 1rem;
+    color: #EBEAEA; 
+}
+  
+  .menuCapacitaciones a:hover {
+    text-decoration: underline;
+    color: #ebeaea; 
+}
