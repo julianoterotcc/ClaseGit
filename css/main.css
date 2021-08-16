@@ -257,7 +257,7 @@
   margin-top: 50px; }
 
 .imagenFondo {
-  background-image: url(/Users/JULIAN/OneDrive/Documentos/Desarrollo/Imagenes/Cross.jpg);
+  background-image: url(Imagenes/Cross.jpg);
   background-size: cover;
   width: 100%;
   position: relative;
